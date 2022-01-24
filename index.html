@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    html{
+        height: 100%;
+        }
+    body {
+        background-color: black;
+        }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows:repeat(5, 100px);
+        gap: 7px;
+    }
+
+    #rojo_1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        background-color: red;
+    }
+
+    #verde_2{
+        grid-column: 3/6;
+        grid-row: 1/2;
+        background-color: green;
+    }
+
+    #blanco_3{
+        grid-column: 1/6;
+        grid-row: 2/3;
+        background-color: white;
+    }
+
+    #azul_4{
+        grid-column: 3/5;
+        grid-row: 3/5;
+        background-color: blue;
+    }
+
+    #amarillo_5{
+        grid-column: 1/3;
+        grid-row: 3/6;
+        background-color: yellow;
+    }
+
+    #rojo_6_2{
+        grid-column: 5/6;
+        grid-row: 3/6;
+        background-color: red;
+    }
+
+    #verde_7_2{
+        grid-column: 3/5;
+        grid-row: 5/6;
+        background-color: green;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="rojo_1">rojo_1</div>
+        <div id="verde_2">verde_2</div>
+        <div id="blanco_3">blanco_3</div>
+        <div id="azul_4">azul_4</div>
+        <div id="amarillo_5">amarillo_5</div>
+        <div id="rojo_6_2">rojo_6_2</div>
+        <div id="verde_7_2">verde_7_2</div>
+    </div>
+
+</body>
+</html>
